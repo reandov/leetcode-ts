@@ -13,12 +13,12 @@ export function containsDuplicate(nums: number[]): boolean {
 
   const seen = new Set<number>();
 
-  for (let i = 0; i < nums.length; i++) {
-    if (seen.has(nums[i])) {
+  for (const num of nums) {
+    if (seen.has(num)) {
       return true;
     }
 
-    seen.add(nums[i]);
+    seen.add(num);
   }
 
   return false;
