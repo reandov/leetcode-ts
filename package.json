@@ -1,0 +1,23 @@
+{
+  "name": "leetcode-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "run": "tsx",
+    "solve": "tsx",
+    "test": "tsx --test \"**/*.spec.ts\"",
+    "test:watch": "tsx --test --watch \"**/*.spec.ts\"",
+    "clean": "rm -rf dist build coverage *.tsbuildinfo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
