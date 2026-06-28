@@ -1,4 +1,4 @@
-/*
+/**
  * VALID ANAGRAM
  *
  * Description: In this problem we need to check if a "t" string is a valid
@@ -10,7 +10,6 @@
  * amount reaches 0 we delete that entry from the map and by the end of the
  * algorithm, the hash map size should be 0, if not isn't a valid anagram.
  */
-
 export function isAnagram(s: string, t: string): boolean {
   if (s.length !== t.length) return false;
 

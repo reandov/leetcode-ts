@@ -1,4 +1,4 @@
-/*
+/**
  * RANSOM NOTE
  *
  * Description: In this problem we need to check if a ransom note string can be
@@ -14,7 +14,6 @@
  * we remove it from the map. By the end, if the map is empty, every needed
  * character was found and the ransom note can be constructed.
  */
-
 export function canConstruct(ransomNote: string, magazine: string): boolean {
   if (ransomNote.length > 0 && magazine.length === 0) return false;
 

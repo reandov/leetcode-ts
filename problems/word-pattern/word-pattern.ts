@@ -1,4 +1,4 @@
-/*
+/**
  * WORD PATTERN
  *
  * Description: This problem stablishes a one to one mapping between the chars
@@ -10,7 +10,6 @@
  * sources and targets in a bijective relation a <-> b to avoid letters being
  * designated to more than one words.
  */
-
 export function wordPattern(pattern: string, s: string): boolean {
   const sourceToTarget = new Map<string, string>();
   const targetToSource = new Map<string, string>();

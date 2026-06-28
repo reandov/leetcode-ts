@@ -1,4 +1,4 @@
-/*
+/**
  * INTERSECTION OF TWO ARRAYS I
  *
  * Description: In this problem we need to return the unique values that appear
@@ -12,7 +12,6 @@
  * Set for the result automatically removes duplicates, so the final answer is
  * the array version of that intersection set.
  */
-
 export function intersection(nums1: number[], nums2: number[]): number[] {
   const seen = new Set<number>(nums1);
   const intersec = new Set<number>();

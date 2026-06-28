@@ -1,4 +1,4 @@
-/*
+/**
  * INTERSECTION OF TWO ARRAYS II
  *
  * Description: In this problem we need to return the values that appear in both
@@ -13,7 +13,6 @@
  * When the count reaches 0 we remove it from the map, so each number is used no
  * more times than it appears in both arrays.
  */
-
 export function intersect(nums1: number[], nums2: number[]): number[] {
   const seen = new Map<number, number>();
   const intersec: number[] = [];

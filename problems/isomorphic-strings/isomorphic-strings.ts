@@ -1,4 +1,4 @@
-/*
+/**
  * ISOMORPHIC STRINGS
  *
  * Description: Two strings are isomorphic when every character in the first
@@ -13,7 +13,6 @@
  * second map in the opposite direction. For every pair, both existing mappings
  * must agree. This guarantees a one-to-one relationship between characters.
  */
-
 export function isIsomorphic(s: string, t: string): boolean {
   if (s.length !== t.length) return false;
 

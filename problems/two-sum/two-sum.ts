@@ -1,4 +1,4 @@
-/*
+/**
  * TWO SUM
  *
  * Description: This problem is pretty simple, it basically consists of finding
@@ -16,7 +16,6 @@
  * in the HM and read it's initial position in the array returning the correct
  * solution in the format of [counterpart position, current position]
  */
-
 export function twoSum(nums: number[], target: number): number[] {
   if (!nums.length) return [];
 

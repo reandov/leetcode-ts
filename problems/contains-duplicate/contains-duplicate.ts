@@ -1,4 +1,4 @@
-/*
+/**
  * CONTAINS DUPLICATE
  *
  * Description: Easy problem that we need to investigate if a given array has
