@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "check": "tsc --noEmit",
+    "new-problem": "tsx scripts/new-problem.ts",
     "run": "tsx",
     "solve": "tsx",
     "test": "tsx --test \"**/*.spec.ts\"",
