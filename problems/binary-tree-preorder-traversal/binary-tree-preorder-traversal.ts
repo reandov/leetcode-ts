@@ -12,7 +12,7 @@
  * the tree height, plus O(n) for the returned values.
  */
 
-import type { TreeNode } from "../../utils/build-tree";
+import type { TreeNode } from "../../utils/array-to-tree/build-tree";
 
 export function preorderTraversal(root: TreeNode | null): number[] {
   if (!root) return [];

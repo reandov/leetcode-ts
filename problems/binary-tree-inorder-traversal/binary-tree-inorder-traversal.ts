@@ -1,4 +1,4 @@
-import type { TreeNode } from "../../utils/build-tree";
+import type { TreeNode } from "../../utils/array-to-tree/build-tree";
 
 /**
  * BINARY TREE INORDER TRAVERSAL

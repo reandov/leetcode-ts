@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { describe, it } from "node:test";
 
-import { buildTree } from "../../utils/build-tree";
+import { buildTree } from "../../utils/array-to-tree/build-tree";
 import { maxDepth } from "./maximum-depth-of-binary-tree";
 
 describe("maxDepth", () => {
