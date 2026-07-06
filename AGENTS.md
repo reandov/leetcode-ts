@@ -74,6 +74,16 @@ npm run new-problem -- "Problem Name"
 The scaffold command creates the source and test files from a normalized,
 lowercase kebab-case slug. It fails rather than overwriting an existing problem.
 
+For an agent-assisted scaffold populated from official LeetCode metadata, invoke
+the repository skill with a problem URL:
+
+```text
+/new-problem https://leetcode.com/problems/example-problem/
+```
+
+The skill creates a correctly typed implementation placeholder, executable
+example tests, and the Problem Index entry without solving the challenge.
+
 ## Implementation Conventions
 
 - Keep one exported solution function per problem file.
