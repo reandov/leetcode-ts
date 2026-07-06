@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc -p tsconfig.build.json",
     "check": "tsc --noEmit",
     "new-problem": "tsx scripts/new-problem.ts",
     "run": "tsx",
