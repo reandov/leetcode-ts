@@ -87,6 +87,10 @@ example tests, and the Problem Index entry without solving the challenge.
 ## Implementation Conventions
 
 - Keep one exported solution function per problem file.
+- Do not change a solution implementation unless the user explicitly asks for a
+  solution change. If you notice possible improvements while preparing tests,
+  docs, commits, or other requested work, warn the user before committing rather
+  than editing the algorithm unprompted.
 - Use strict TypeScript types; avoid `any` and unsafe casts.
 - Import types with `import type` when they are not used at runtime.
 - Document the problem, the chosen algorithm, and its time and space complexity
