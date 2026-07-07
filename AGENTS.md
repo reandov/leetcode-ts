@@ -154,6 +154,7 @@ Keep each commit focused. Do not include unrelated files or generated output.
 | Longest Consecutive Sequence | [source](problems/longest-consecutive-sequence/longest-consecutive-sequence.ts) | [problem](https://leetcode.com/problems/longest-consecutive-sequence/) |
 | Longest Substring Without Repeating Characters | [source](problems/longest-substring-without-repeating-characters/longest-substring-without-repeating-characters.ts) | [problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |
 | Maximum Depth of Binary Tree | [source](problems/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.ts) | [problem](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |
+| Minimum Depth of Binary Tree | [source](problems/minimum-depth-of-binary-tree/minimum-depth-of-binary-tree.ts) | [problem](https://leetcode.com/problems/minimum-depth-of-binary-tree/) |
 | Path Sum | [source](problems/path-sum/path-sum.ts) | [problem](https://leetcode.com/problems/path-sum/) |
 | Permutation in String | [source](problems/permutation-in-a-string/permutation-in-a-string.ts) | [problem](https://leetcode.com/problems/permutation-in-string/) |
 | Ransom Note | [source](problems/ransom-note/ransom-note.ts) | [problem](https://leetcode.com/problems/ransom-note/) |
