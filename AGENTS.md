@@ -146,6 +146,7 @@ Keep each commit focused. Do not include unrelated files or generated output.
 | Problem | Solution | LeetCode |
 | --- | --- | --- |
 | Binary Tree Inorder Traversal | [source](problems/binary-tree-inorder-traversal/binary-tree-inorder-traversal.ts) | [problem](https://leetcode.com/problems/binary-tree-inorder-traversal/) |
+| Binary Tree Level Order Traversal | [source](problems/binary-tree-level-order-traversal/binary-tree-level-order-traversal.ts) | [problem](https://leetcode.com/problems/binary-tree-level-order-traversal/) |
 | Binary Tree Postorder Traversal | [source](problems/binary-tree-postorder-traversal/binary-tree-postorder-traversal.ts) | [problem](https://leetcode.com/problems/binary-tree-postorder-traversal/) |
 | Binary Tree Preorder Traversal | [source](problems/binary-tree-preorder-traversal/binary-tree-preorder-traversal.ts) | [problem](https://leetcode.com/problems/binary-tree-preorder-traversal/) |
 | Contains Duplicate | [source](problems/contains-duplicate/contains-duplicate.ts) | [problem](https://leetcode.com/problems/contains-duplicate/) |
