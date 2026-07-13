@@ -146,6 +146,7 @@ Keep each commit focused. Do not include unrelated files or generated output.
 | Problem | Solution | LeetCode |
 | --- | --- | --- |
 | Average of Levels in Binary Tree | [source](problems/average-of-levels-in-binary-tree/average-of-levels-in-binary-tree.ts) | [problem](https://leetcode.com/problems/average-of-levels-in-binary-tree/) |
+| Best Time to Buy and Sell Stock | [source](problems/best-time-to-buy-and-sell-stock/best-time-to-buy-and-sell-stock.ts) | [problem](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |
 | Binary Tree Inorder Traversal | [source](problems/binary-tree-inorder-traversal/binary-tree-inorder-traversal.ts) | [problem](https://leetcode.com/problems/binary-tree-inorder-traversal/) |
 | Binary Tree Level Order Traversal | [source](problems/binary-tree-level-order-traversal/binary-tree-level-order-traversal.ts) | [problem](https://leetcode.com/problems/binary-tree-level-order-traversal/) |
 | Binary Tree Postorder Traversal | [source](problems/binary-tree-postorder-traversal/binary-tree-postorder-traversal.ts) | [problem](https://leetcode.com/problems/binary-tree-postorder-traversal/) |
