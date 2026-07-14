@@ -165,6 +165,7 @@ Keep each commit focused. Do not include unrelated files or generated output.
 | Merge Sorted Array | [source](problems/merge-sorted-array/merge-sorted-array.ts) | [problem](https://leetcode.com/problems/merge-sorted-array/) |
 | Minimum Depth of Binary Tree | [source](problems/minimum-depth-of-binary-tree/minimum-depth-of-binary-tree.ts) | [problem](https://leetcode.com/problems/minimum-depth-of-binary-tree/) |
 | Minimum Window Substring | [source](problems/minimum-window-substring/minimum-window-substring.ts) | [problem](https://leetcode.com/problems/minimum-window-substring/) |
+| Number of Islands | [source](problems/number-of-islands/number-of-islands.ts) | [problem](https://leetcode.com/problems/number-of-islands/) |
 | Path Sum | [source](problems/path-sum/path-sum.ts) | [problem](https://leetcode.com/problems/path-sum/) |
 | Permutation in String | [source](problems/permutation-in-a-string/permutation-in-a-string.ts) | [problem](https://leetcode.com/problems/permutation-in-string/) |
 | Product of Array Except Self | [source](problems/product-of-array-except-self/product-of-array-except-self.ts) | [problem](https://leetcode.com/problems/product-of-array-except-self/) |
