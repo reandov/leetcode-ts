@@ -96,6 +96,7 @@ npm run new-problem -- "Problem Name"
 | Top K Frequent Elements | [source](problems/top-k-frequent-elements/top-k-frequent-elements.ts) | [problem](https://leetcode.com/problems/top-k-frequent-elements/) |
 | Two Sum | [source](problems/two-sum/two-sum.ts) | [problem](https://leetcode.com/problems/two-sum/) |
 | Valid Anagram | [source](problems/valid-anagram/valid-anagram.ts) | [problem](https://leetcode.com/problems/valid-anagram/) |
+| Word Break | [source](problems/word-break/word-break.ts) | [problem](https://leetcode.com/problems/word-break/) |
 | Word Ladder | [source](problems/word-ladder/word-ladder.ts) | [problem](https://leetcode.com/problems/word-ladder/) |
 | Word Pattern | [source](problems/word-pattern/word-pattern.ts) | [problem](https://leetcode.com/problems/word-pattern/) |
 
