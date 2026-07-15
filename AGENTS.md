@@ -181,7 +181,8 @@ Keep each commit focused. Do not include unrelated files or generated output.
 | Word Ladder | [source](problems/word-ladder/word-ladder.ts) | [problem](https://leetcode.com/problems/word-ladder/) |
 | Word Pattern | [source](problems/word-pattern/word-pattern.ts) | [problem](https://leetcode.com/problems/word-pattern/) |
 
-When adding a problem, add it alphabetically to this index in the same commit.
+When adding a problem, add it alphabetically to this index and the README.md
+Solved Problems table in the same commit.
 
 ## Shared Utilities
 
