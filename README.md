@@ -75,6 +75,7 @@ npm run new-problem -- "Problem Name"
 | Course Schedule II | [source](problems/course-schedule-ii/course-schedule-ii.ts) | [problem](https://leetcode.com/problems/course-schedule-ii/) |
 | Find All Anagrams in a String | [source](problems/find-all-anagrams-in-a-string/find-all-anagrams-in-a-string.ts) | [problem](https://leetcode.com/problems/find-all-anagrams-in-a-string/) |
 | Group Anagrams | [source](problems/group-anagrams/group-anagrams.ts) | [problem](https://leetcode.com/problems/group-anagrams/) |
+| House Robber III | [source](problems/house-robber-iii/house-robber-iii.ts) | [problem](https://leetcode.com/problems/house-robber-iii/) |
 | Intersection of Two Arrays | [source](problems/intersection-of-two-arrays-i/intersection-of-two-arrays-i.ts) | [problem](https://leetcode.com/problems/intersection-of-two-arrays/) |
 | Intersection of Two Arrays II | [source](problems/intersection-of-two-arrays-ii/intersection-of-two-arrays-ii.ts) | [problem](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |
 | Invert Binary Tree | [source](problems/invert-binary-tree/invert-binary-tree.ts) | [problem](https://leetcode.com/problems/invert-binary-tree/) |
