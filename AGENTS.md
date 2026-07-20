@@ -156,6 +156,7 @@ Keep each commit focused. Do not include unrelated files or generated output.
 | Contains Duplicate | [source](problems/contains-duplicate/contains-duplicate.ts) | [problem](https://leetcode.com/problems/contains-duplicate/) |
 | Course Schedule II | [source](problems/course-schedule-ii/course-schedule-ii.ts) | [problem](https://leetcode.com/problems/course-schedule-ii/) |
 | Find All Anagrams in a String | [source](problems/find-all-anagrams-in-a-string/find-all-anagrams-in-a-string.ts) | [problem](https://leetcode.com/problems/find-all-anagrams-in-a-string/) |
+| Find Center of Star Graph | [source](problems/find-center-of-star-graph/find-center-of-star-graph.ts) | [problem](https://leetcode.com/problems/find-center-of-star-graph/) |
 | Find if Path Exists in Graph | [source](problems/find-if-path-exists-in-graph/find-if-path-exists-in-graph.ts) | [problem](https://leetcode.com/problems/find-if-path-exists-in-graph/) |
 | Group Anagrams | [source](problems/group-anagrams/group-anagrams.ts) | [problem](https://leetcode.com/problems/group-anagrams/) |
 | House Robber III | [source](problems/house-robber-iii/house-robber-iii.ts) | [problem](https://leetcode.com/problems/house-robber-iii/) |
