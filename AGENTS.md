@@ -154,6 +154,7 @@ Keep each commit focused. Do not include unrelated files or generated output.
 | Binary Tree Preorder Traversal | [source](problems/binary-tree-preorder-traversal/binary-tree-preorder-traversal.ts) | [problem](https://leetcode.com/problems/binary-tree-preorder-traversal/) |
 | Bus Routes | [source](problems/bus-routes/bus-routes.ts) | [problem](https://leetcode.com/problems/bus-routes/) |
 | Contains Duplicate | [source](problems/contains-duplicate/contains-duplicate.ts) | [problem](https://leetcode.com/problems/contains-duplicate/) |
+| Count Integers in Intervals | [source](problems/count-integers-in-intervals/count-integers-in-intervals.ts) | [problem](https://leetcode.com/problems/count-integers-in-intervals/) |
 | Course Schedule II | [source](problems/course-schedule-ii/course-schedule-ii.ts) | [problem](https://leetcode.com/problems/course-schedule-ii/) |
 | Find All Anagrams in a String | [source](problems/find-all-anagrams-in-a-string/find-all-anagrams-in-a-string.ts) | [problem](https://leetcode.com/problems/find-all-anagrams-in-a-string/) |
 | Find Center of Star Graph | [source](problems/find-center-of-star-graph/find-center-of-star-graph.ts) | [problem](https://leetcode.com/problems/find-center-of-star-graph/) |
