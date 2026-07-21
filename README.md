@@ -92,6 +92,7 @@ npm run new-problem -- "Problem Name"
 | Merge Intervals | [source](problems/merge-intervals/merge-intervals.ts) | [problem](https://leetcode.com/problems/merge-intervals/) |
 | Merge Sorted Array | [source](problems/merge-sorted-array/merge-sorted-array.ts) | [problem](https://leetcode.com/problems/merge-sorted-array/) |
 | Minimum Depth of Binary Tree | [source](problems/minimum-depth-of-binary-tree/minimum-depth-of-binary-tree.ts) | [problem](https://leetcode.com/problems/minimum-depth-of-binary-tree/) |
+| Minimum Number of Arrows to Burst Balloons | [source](problems/minimum-number-of-arrows-to-burst-balloons/minimum-number-of-arrows-to-burst-balloons.ts) | [problem](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) |
 | Minimum Window Substring | [source](problems/minimum-window-substring/minimum-window-substring.ts) | [problem](https://leetcode.com/problems/minimum-window-substring/) |
 | Number of Islands | [source](problems/number-of-islands/number-of-islands.ts) | [problem](https://leetcode.com/problems/number-of-islands/) |
 | Path Sum | [source](problems/path-sum/path-sum.ts) | [problem](https://leetcode.com/problems/path-sum/) |
