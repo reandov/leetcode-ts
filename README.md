@@ -81,6 +81,7 @@ npm run new-problem -- "Problem Name"
 | House Robber III | [source](problems/house-robber-iii/house-robber-iii.ts) | [problem](https://leetcode.com/problems/house-robber-iii/) |
 | Intersection of Two Arrays | [source](problems/intersection-of-two-arrays-i/intersection-of-two-arrays-i.ts) | [problem](https://leetcode.com/problems/intersection-of-two-arrays/) |
 | Intersection of Two Arrays II | [source](problems/intersection-of-two-arrays-ii/intersection-of-two-arrays-ii.ts) | [problem](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |
+| Insert Interval | [source](problems/insert-interval/insert-interval.ts) | [problem](https://leetcode.com/problems/insert-interval/) |
 | Invert Binary Tree | [source](problems/invert-binary-tree/invert-binary-tree.ts) | [problem](https://leetcode.com/problems/invert-binary-tree/) |
 | Isomorphic Strings | [source](problems/isomorphic-strings/isomorphic-strings.ts) | [problem](https://leetcode.com/problems/isomorphic-strings/) |
 | Longest Consecutive Sequence | [source](problems/longest-consecutive-sequence/longest-consecutive-sequence.ts) | [problem](https://leetcode.com/problems/longest-consecutive-sequence/) |
