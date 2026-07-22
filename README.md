@@ -1,10 +1,11 @@
 # leetcode-ts
 
-TypeScript solutions and tests for LeetCode problems.
+TypeScript solutions and tests for LeetCode and custom interview problems.
 
 The repository is set up for strict TypeScript, Node's built-in test runner, and
 `tsx`, so solutions can be written and tested without a separate build step.
-Each problem lives in its own directory under `problems/`, beside its test file.
+LeetCode problems live under `problems/`. Custom interview problems live under
+`custom-problems/` with a preserved `prompt.md`.
 
 ## Project Structure
 
@@ -12,6 +13,11 @@ Each problem lives in its own directory under `problems/`, beside its test file.
 problems/<problem-slug>/
 |-- <problem-slug>.ts
 `-- <problem-slug>.spec.ts
+
+custom-problems/<problem-slug>/
+|-- <problem-slug>.ts
+|-- <problem-slug>.spec.ts
+`-- prompt.md
 ```
 
 Shared helpers live under `utils/`. Current utilities include binary tree
@@ -57,6 +63,18 @@ Scaffold a new problem:
 
 ```bash
 npm run new-problem -- "Problem Name"
+```
+
+Scaffold a new custom interview problem:
+
+```bash
+npm run new-custom-problem -- "Problem Name"
+```
+
+Create a custom problem with an initial prompt:
+
+```bash
+npm run new-custom-problem -- "Problem Name" --prompt "Full prompt text"
 ```
 
 ## Solved Problems
@@ -115,12 +133,18 @@ npm run new-problem -- "Problem Name"
 | Word Ladder | [source](problems/word-ladder/word-ladder.ts) | [problem](https://leetcode.com/problems/word-ladder/) |
 | Word Pattern | [source](problems/word-pattern/word-pattern.ts) | [problem](https://leetcode.com/problems/word-pattern/) |
 
+## Custom Problems
+
+Custom problem prompts and sources are indexed in
+[custom-problems/README.md](custom-problems/README.md).
+
 ## Conventions
 
 - Keep one exported solution function per problem file.
 - Document the problem, approach, time complexity, and space complexity in the
   solution JSDoc.
 - Keep tests beside the implementation.
+- Keep custom problem statements in `custom-problems/<slug>/prompt.md`.
 - Use `node:test` and `node:assert/strict`.
 - Prefer focused tests covering canonical examples and meaningful edge cases.
 - Keep solution modules free of import-time side effects.

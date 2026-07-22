@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "check": "tsc --noEmit",
+    "new-custom-problem": "tsx scripts/new-custom-problem.ts",
     "new-problem": "tsx scripts/new-problem.ts",
     "run": "tsx",
     "solve": "tsx",

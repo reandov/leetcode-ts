@@ -2,16 +2,26 @@
 
 ## Overview
 
-This repository contains TypeScript solutions and tests for LeetCode problems.
-It uses strict TypeScript, Node's built-in test runner, and `tsx` to execute
-TypeScript without a build step.
+This repository contains TypeScript solutions and tests for LeetCode and custom
+interview problems. It uses strict TypeScript, Node's built-in test runner, and
+`tsx` to execute TypeScript without a build step.
 
-Each problem lives in its own directory under `problems/`:
+Each LeetCode problem lives in its own directory under `problems/`:
 
 ```text
 problems/<problem-slug>/
 ├── <problem-slug>.ts
 └── <problem-slug>.spec.ts
+```
+
+Each custom interview problem lives in its own directory under
+`custom-problems/`:
+
+```text
+custom-problems/<problem-slug>/
+|-- <problem-slug>.ts
+|-- <problem-slug>.spec.ts
+`-- prompt.md
 ```
 
 Shared data-structure helpers live under `utils/`. The current helpers build a
@@ -74,6 +84,22 @@ npm run new-problem -- "Problem Name"
 The scaffold command creates the source and test files from a normalized,
 lowercase kebab-case slug. It fails rather than overwriting an existing problem.
 
+Scaffold a new custom interview problem:
+
+```bash
+npm run new-custom-problem -- "Problem Name"
+```
+
+Create a custom problem with an initial prompt:
+
+```bash
+npm run new-custom-problem -- "Problem Name" --prompt "Full prompt text"
+```
+
+The custom scaffold creates `custom-problems/<slug>/<slug>.ts`,
+`custom-problems/<slug>/<slug>.spec.ts`, `custom-problems/<slug>/prompt.md`,
+and updates `custom-problems/README.md`.
+
 For an agent-assisted scaffold populated from official LeetCode metadata, invoke
 the repository skill with a problem URL:
 
@@ -83,6 +109,16 @@ the repository skill with a problem URL:
 
 The skill creates a correctly typed implementation placeholder, executable
 example tests, and the Problem Index entry without solving the challenge.
+
+For custom interview prompts, invoke the repository skill with a title or pasted
+prompt:
+
+```text
+$custom-problem Create a custom problem from this prompt: ...
+```
+
+The custom skill can also improve a custom `prompt.md` or generate executable
+tests from it without solving the challenge.
 
 ## Implementation Conventions
 
@@ -100,6 +136,8 @@ example tests, and the Problem Index entry without solving the challenge.
 - Prefer clear algorithmic names over abbreviated names, except for conventional
   terms such as `dfs`, `bfs`, `left`, and `right`.
 - Reuse helpers from `utils/` for shared structures instead of duplicating them.
+- Keep custom problem statements in `custom-problems/<slug>/prompt.md`; do not
+  put custom interview prompts under `problems/`.
 
 ## Test Conventions
 
@@ -199,6 +237,13 @@ Keep each commit focused. Do not include unrelated files or generated output.
 
 When adding a problem, add it alphabetically to this index and the README.md
 Solved Problems table in the same commit.
+
+## Custom Problem Index
+
+Custom interview problems are indexed in
+[`custom-problems/README.md`](custom-problems/README.md). Add custom problems
+with `npm run new-custom-problem -- "Problem Name"` or the `$custom-problem`
+skill instead of editing the index manually.
 
 ## Shared Utilities
 
