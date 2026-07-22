@@ -85,6 +85,7 @@ npm run new-problem -- "Problem Name"
 | Insert Interval | [source](problems/insert-interval/insert-interval.ts) | [problem](https://leetcode.com/problems/insert-interval/) |
 | Invert Binary Tree | [source](problems/invert-binary-tree/invert-binary-tree.ts) | [problem](https://leetcode.com/problems/invert-binary-tree/) |
 | Isomorphic Strings | [source](problems/isomorphic-strings/isomorphic-strings.ts) | [problem](https://leetcode.com/problems/isomorphic-strings/) |
+| Kth Smallest Element in a BST | [source](problems/kth-smallest-element-in-a-bst/kth-smallest-element-in-a-bst.ts) | [problem](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) |
 | Longest Consecutive Sequence | [source](problems/longest-consecutive-sequence/longest-consecutive-sequence.ts) | [problem](https://leetcode.com/problems/longest-consecutive-sequence/) |
 | Longest Substring Without Repeating Characters | [source](problems/longest-substring-without-repeating-characters/longest-substring-without-repeating-characters.ts) | [problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |
 | Maximum Depth of Binary Tree | [source](problems/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.ts) | [problem](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |
