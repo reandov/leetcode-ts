@@ -173,6 +173,7 @@ Keep each commit focused. Do not include unrelated files or generated output.
 | Maximum Profit in Job Scheduling | [source](problems/maximum-profit-in-job-scheduling/maximum-profit-in-job-scheduling.ts) | [problem](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) |
 | Merge Intervals | [source](problems/merge-intervals/merge-intervals.ts) | [problem](https://leetcode.com/problems/merge-intervals/) |
 | Merge Sorted Array | [source](problems/merge-sorted-array/merge-sorted-array.ts) | [problem](https://leetcode.com/problems/merge-sorted-array/) |
+| Minimum Absolute Difference in BST | [source](problems/minimum-absolute-difference-in-bst/minimum-absolute-difference-in-bst.ts) | [problem](https://leetcode.com/problems/minimum-absolute-difference-in-bst/) |
 | Minimum Depth of Binary Tree | [source](problems/minimum-depth-of-binary-tree/minimum-depth-of-binary-tree.ts) | [problem](https://leetcode.com/problems/minimum-depth-of-binary-tree/) |
 | Minimum Number of Arrows to Burst Balloons | [source](problems/minimum-number-of-arrows-to-burst-balloons/minimum-number-of-arrows-to-burst-balloons.ts) | [problem](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) |
 | Minimum Window Substring | [source](problems/minimum-window-substring/minimum-window-substring.ts) | [problem](https://leetcode.com/problems/minimum-window-substring/) |
