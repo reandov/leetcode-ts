@@ -191,6 +191,7 @@ Keep each commit focused. Do not include unrelated files or generated output.
 | Top K Frequent Elements | [source](problems/top-k-frequent-elements/top-k-frequent-elements.ts) | [problem](https://leetcode.com/problems/top-k-frequent-elements/) |
 | Two Sum | [source](problems/two-sum/two-sum.ts) | [problem](https://leetcode.com/problems/two-sum/) |
 | Valid Anagram | [source](problems/valid-anagram/valid-anagram.ts) | [problem](https://leetcode.com/problems/valid-anagram/) |
+| Validate Binary Search Tree | [source](problems/validate-binary-search-tree/validate-binary-search-tree.ts) | [problem](https://leetcode.com/problems/validate-binary-search-tree/) |
 | Word Break | [source](problems/word-break/word-break.ts) | [problem](https://leetcode.com/problems/word-break/) |
 | Word Break II | [source](problems/word-break-ii/word-break-ii.ts) | [problem](https://leetcode.com/problems/word-break-ii/) |
 | Word Ladder | [source](problems/word-ladder/word-ladder.ts) | [problem](https://leetcode.com/problems/word-ladder/) |
