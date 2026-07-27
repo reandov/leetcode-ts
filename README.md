@@ -108,6 +108,7 @@ npm run new-custom-problem -- "Problem Name" --prompt "Full prompt text"
 | Longest Substring Without Repeating Characters | [source](problems/longest-substring-without-repeating-characters/longest-substring-without-repeating-characters.ts) | [problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |
 | Maximum Depth of Binary Tree | [source](problems/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.ts) | [problem](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |
 | Maximum Profit in Job Scheduling | [source](problems/maximum-profit-in-job-scheduling/maximum-profit-in-job-scheduling.ts) | [problem](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) |
+| Maximum Product of Two Elements in an Array | [source](problems/maximum-product-of-two-elements-in-an-array/maximum-product-of-two-elements-in-an-array.ts) | [problem](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) |
 | Merge Intervals | [source](problems/merge-intervals/merge-intervals.ts) | [problem](https://leetcode.com/problems/merge-intervals/) |
 | Merge Sorted Array | [source](problems/merge-sorted-array/merge-sorted-array.ts) | [problem](https://leetcode.com/problems/merge-sorted-array/) |
 | Minimum Absolute Difference in BST | [source](problems/minimum-absolute-difference-in-bst/minimum-absolute-difference-in-bst.ts) | [problem](https://leetcode.com/problems/minimum-absolute-difference-in-bst/) |
