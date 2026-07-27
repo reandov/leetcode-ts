@@ -1,6 +1,6 @@
 ---
 name: new-problem
-description: Scaffold a LeetCode problem in this repository from its problem URL. Use when the user invokes `/new-problem` followed by a LeetCode URL, supplies a LeetCode problem URL to prepare for solving, or asks to create a correctly named TypeScript solution stub and executable tests without implementing the algorithm.
+description: Scaffold a LeetCode problem in this DSA TypeScript repository from its problem URL. Use when the user invokes `/new-problem` or `$new-problem` with a LeetCode URL, supplies a LeetCode problem URL to prepare for solving, or asks to create a correctly named TypeScript solution stub and executable tests under src/problems/leetcode without implementing the algorithm.
 ---
 
 # New Problem
@@ -21,8 +21,8 @@ placeholder so the user can use test-driven development.
    - Read `AGENTS.md`, `package.json`, `scripts/new-problem.ts`, and one recent
      problem and test pair.
    - Check `git status` and preserve unrelated work.
-   - Stop if `problems/<slug>/` already exists; report its path instead of
-     overwriting it.
+   - Stop if `src/problems/leetcode/<slug>/` already exists; report its path
+     instead of overwriting it.
 
 3. Fetch official problem metadata.
    - Run:
@@ -46,12 +46,12 @@ placeholder so the user can use test-driven development.
      generating a potentially incorrect API.
 
 4. Generate the initial files.
-   - Run `npm run new-problem -- "<canonical slug>"`.
+   - Run `npm run new-leetcode -- "<canonical slug>"`.
    - Keep the repository convention:
 
      ```text
-     problems/<slug>/<slug>.ts
-     problems/<slug>/<slug>.spec.ts
+     src/problems/leetcode/<slug>/<slug>.ts
+     src/problems/leetcode/<slug>/<slug>.spec.ts
      ```
 
    - Do not introduce `index.ts`.
@@ -89,12 +89,13 @@ placeholder so the user can use test-driven development.
 
 7. Update documentation.
    - Add the problem alphabetically to the Problem Index in `AGENTS.md`.
+   - Add the problem alphabetically to the Solved Problems table in `README.md`.
    - Link to the local source file and canonical LeetCode URL.
 
 8. Validate the scaffold.
    - Run `npm run check`; it must pass.
    - Run the new test file directly with
-     `npx tsx --test problems/<slug>/<slug>.spec.ts`.
+     `npx tsx --test src/problems/leetcode/<slug>/<slug>.spec.ts`.
    - Confirm failures come from `Error: Not implemented`. Treat that expected
      red state as successful scaffold validation.
    - Run `git diff --check`.
@@ -111,5 +112,5 @@ placeholder so the user can use test-driven development.
 - Never overwrite an existing problem.
 - Never solve the challenge as part of scaffolding.
 - Never guess missing metadata or silently change the official function API.
-- Keep changes limited to the new problem and its `AGENTS.md` index entry.
+- Keep changes limited to the new problem, `AGENTS.md`, and `README.md`.
 - Preserve repository formatting and strict TypeScript compatibility.

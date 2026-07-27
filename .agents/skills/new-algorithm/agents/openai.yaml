@@ -1,0 +1,4 @@
+interface:
+  display_name: "New Algorithm"
+  short_description: "Scaffold reusable DSA algorithms"
+  default_prompt: "Use $new-algorithm to scaffold a reusable algorithm topic in this repository."

@@ -1,25 +1,25 @@
 ---
 name: custom-problem
-description: Create, improve, and test custom interview-style coding problems in this repository. Use when the user asks to create a custom problem from a pasted prompt, scaffold a non-LeetCode problem, improve a custom problem prompt.md, or generate node:test tests for a custom problem prompt.
+description: Create, improve, and test custom interview-style coding problems in this DSA TypeScript repository. Use when the user asks to create a custom problem from a pasted prompt, scaffold a non-LeetCode problem under src/problems/custom, improve a custom problem prompt.md, or generate node:test tests for a custom problem prompt.
 ---
 
 # Custom Problem
 
-Work with custom interview problems under `custom-problems/`, separate from
-LeetCode problems under `problems/`.
+Work with custom interview problems under `src/problems/custom/`, separate from
+LeetCode problems under `src/problems/leetcode/`.
 
 ## Repository Shape
 
 Each custom problem lives at:
 
 ```text
-custom-problems/<slug>/
+src/problems/custom/<slug>/
 |-- <slug>.ts
 |-- <slug>.spec.ts
 `-- prompt.md
 ```
 
-`custom-problems/README.md` is the custom problem index.
+`src/problems/custom/README.md` is the custom problem index.
 
 ## Create A Custom Problem
 
@@ -41,7 +41,7 @@ custom-problems/<slug>/
 5. If the prompt defines a concrete function signature, update the source stub
    to export that signature and keep `throw new Error("Not implemented");`.
 6. Keep changes limited to the new custom problem and
-   `custom-problems/README.md` unless the user asks for tooling changes.
+   `src/problems/custom/README.md` unless the user asks for tooling changes.
 
 ## Improve prompt.md
 
@@ -65,7 +65,7 @@ custom-problems/<slug>/
 6. Run `npm run check` and the custom problem spec directly:
 
    ```bash
-   npx tsx --test custom-problems/<slug>/<slug>.spec.ts
+   npx tsx --test src/problems/custom/<slug>/<slug>.spec.ts
    ```
 
 7. If the solution is still a placeholder, confirm failures come from
@@ -73,7 +73,7 @@ custom-problems/<slug>/
 
 ## Guardrails
 
-- Never put custom problems under `problems/`.
+- Never put custom problems under `src/problems/leetcode/`.
 - Never overwrite an existing custom problem.
 - Never invent requirements that are not in the prompt; mark ambiguities in
   `prompt.md` instead.

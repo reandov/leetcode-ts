@@ -1,0 +1,4 @@
+interface:
+  display_name: "New Data Structure"
+  short_description: "Scaffold reusable DSA structures"
+  default_prompt: "Use $new-data-structure to scaffold a reusable data structure in this repository."

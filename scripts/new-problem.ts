@@ -1,6 +1,12 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
+const LEETCODE_PROBLEM_ROOT = path.join(
+  "src",
+  "problems",
+  "leetcode",
+);
+
 function slugify(value: string): string {
   return value
     .normalize("NFKD")
@@ -34,7 +40,7 @@ async function createProblem(): Promise<void> {
   }
 
   const functionName = toCamelCase(slug);
-  const problemDirectory = path.join(process.cwd(), "problems", slug);
+  const problemDirectory = path.join(process.cwd(), LEETCODE_PROBLEM_ROOT, slug);
   const sourcePath = path.join(problemDirectory, `${slug}.ts`);
   const testPath = path.join(problemDirectory, `${slug}.spec.ts`);
 
@@ -67,7 +73,7 @@ describe("${functionName}", () => {
     writeFile(testPath, test, { flag: "wx" }),
   ]);
 
-  console.log(`Created problems/${slug}/`);
+  console.log(`Created ${LEETCODE_PROBLEM_ROOT}/${slug}/`);
   console.log(`  ${slug}.ts`);
   console.log(`  ${slug}.spec.ts`);
 }

@@ -1,6 +1,8 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
+const CUSTOM_PROBLEM_ROOT = path.join("src", "problems", "custom");
+
 type ParsedArgs = {
   title: string;
   prompt?: string;
@@ -93,7 +95,7 @@ TODO: Add input size limits, value ranges, and edge-case guarantees.
 }
 
 async function updateCustomIndex(title: string, slug: string): Promise<void> {
-  const indexPath = path.join(process.cwd(), "custom-problems", "README.md");
+  const indexPath = path.join(process.cwd(), CUSTOM_PROBLEM_ROOT, "README.md");
   const row = `| ${escapeMarkdownCell(title)} | [prompt](${slug}/prompt.md) | [source](${slug}/${slug}.ts) |`;
 
   let rows: string[] = [];
@@ -144,7 +146,7 @@ async function createCustomProblem(): Promise<void> {
   }
 
   const functionName = toCamelCase(slug);
-  const customRoot = path.join(process.cwd(), "custom-problems");
+  const customRoot = path.join(process.cwd(), CUSTOM_PROBLEM_ROOT);
   const problemDirectory = path.join(customRoot, slug);
   const sourcePath = path.join(problemDirectory, `${slug}.ts`);
   const testPath = path.join(problemDirectory, `${slug}.spec.ts`);
@@ -192,11 +194,11 @@ describe("${functionName}", () => {
 
   await updateCustomIndex(title, slug);
 
-  console.log(`Created custom-problems/${slug}/`);
+  console.log(`Created ${CUSTOM_PROBLEM_ROOT}/${slug}/`);
   console.log(`  ${slug}.ts`);
   console.log(`  ${slug}.spec.ts`);
   console.log("  prompt.md");
-  console.log("Updated custom-problems/README.md");
+  console.log(`Updated ${CUSTOM_PROBLEM_ROOT}/README.md`);
 }
 
 createCustomProblem().catch((error: unknown) => {
