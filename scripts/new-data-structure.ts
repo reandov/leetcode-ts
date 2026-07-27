@@ -82,15 +82,19 @@ describe("${className}", () => {
 
 TODO: Explain what this structure stores and which operations it optimizes.
 
+## Study Goal
+
+TODO: Explain what this implementation is intended to teach from scratch.
+
 ## Operations
 
 | Operation | Complexity | Notes |
 | --- | --- | --- |
 | TODO | TODO | TODO |
 
-## Common Uses
+## Related Concepts And Problems
 
-TODO: Link algorithms and problems that use this structure.
+TODO: Link algorithms, concepts, and practice problems that use this structure.
 `;
 
   await Promise.all([

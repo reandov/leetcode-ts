@@ -1,11 +1,11 @@
 ---
 name: new-algorithm
-description: Scaffold reusable algorithm implementations in this DSA TypeScript repository. Use when the user asks to add a general algorithm, random algorithm, reusable algorithm template, or algorithm study entry under src/algorithms rather than solving a specific LeetCode/custom problem.
+description: Scaffold from-scratch algorithm study implementations in this DSA TypeScript repository. Use when the user asks to add a general algorithm, random algorithm, algorithm template, or algorithm study entry under src/algorithms rather than solving a specific LeetCode/custom problem or building a shared utility library.
 ---
 
 # New Algorithm
 
-Create reusable algorithm material under `src/algorithms/`.
+Create from-scratch algorithm study material under `src/algorithms/`.
 
 ## Workflow
 
@@ -29,12 +29,16 @@ Create reusable algorithm material under `src/algorithms/`.
 5. If the user supplied requirements, refine the README and exported function
    signature while keeping `throw new Error("Not implemented");` unless the user
    explicitly asked for implementation.
+   - It is acceptable for an algorithm folder to define local example types or
+     data representations when that makes the concept clearer.
+   - Do not force the implementation to import shared data structures unless the
+     user specifically wants integration.
 6. Add focused tests only when expected behavior is defined.
 7. Run `npm run check` and the new spec directly when tests are executable.
 
 ## Guardrails
 
-- Do not put reusable algorithms under `src/problems/`.
+- Do not put algorithm study implementations under `src/problems/`.
 - Do not overwrite an existing algorithm directory.
 - Do not implement the algorithm unless the user explicitly asks for the
   implementation.

@@ -1,11 +1,11 @@
 ---
 name: new-data-structure
-description: Scaffold reusable data structures and shared helpers in this DSA TypeScript repository. Use when the user asks to add a data structure, helper structure, or reusable DSA utility under src/data-structures rather than a one-off problem solution.
+description: Scaffold from-scratch data-structure study implementations and shared helpers in this DSA TypeScript repository. Use when the user asks to add a data structure, helper structure, or DSA utility under src/data-structures to learn how it works rather than to solve a one-off problem.
 ---
 
 # New Data Structure
 
-Create reusable data-structure material under `src/data-structures/`.
+Create from-scratch data-structure study material under `src/data-structures/`.
 
 ## Workflow
 
@@ -34,6 +34,8 @@ Create reusable data-structure material under `src/data-structures/`.
 
 ## Guardrails
 
-- Reuse existing helpers under `src/data-structures/` before adding duplicates.
-- Do not put reusable structures under `src/problems/`.
+- Reuse existing helpers under `src/data-structures/` when that improves
+  clarity, but allow self-contained implementations when the learning goal is to
+  build the structure from scratch.
+- Do not put data-structure study implementations under `src/problems/`.
 - Do not overwrite an existing data-structure directory.

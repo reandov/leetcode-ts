@@ -32,13 +32,14 @@ docs/
 `-- patterns/
 ```
 
-Reusable implementations live under `src/algorithms/` and
-`src/data-structures/`. LeetCode and custom interview problems live under
-`src/problems/`. Study notes live under `docs/`.
+From-scratch study implementations live under `src/algorithms/` and
+`src/data-structures/`. They are for learning how the algorithm or structure
+works, not primarily for reuse inside problem solutions. LeetCode and custom
+interview problems live under `src/problems/`. Study notes live under `docs/`.
 
-Agent-specific workflows live under `.agents/skills/`. The
-repository skills scaffold LeetCode problems, custom problems, reusable
-algorithms, data structures, and theory notes.
+Agent-specific workflows live under `.agents/skills/`. The repository skills
+scaffold LeetCode problems, custom problems, algorithm studies, data-structure
+studies, and theory notes.
 
 ## Commands
 
@@ -90,7 +91,7 @@ Create a custom problem with an initial prompt:
 npm run new-custom-problem -- "Problem Name" --prompt "Full prompt text"
 ```
 
-Scaffold reusable DSA material:
+Scaffold DSA study material:
 
 ```bash
 npm run new-algorithm -- "Binary Search Lower Bound"
@@ -176,14 +177,20 @@ Custom problem prompts and sources are indexed in
 
 ## Conventions
 
-- Keep one exported solution function or data-structure class per implementation
-  file unless the topic naturally requires a small helper type.
-- Document the problem or reusable topic, approach, time complexity, and space
+- Keep one exported solution function, algorithm function, or data-structure
+  class per implementation file unless the topic naturally requires a small
+  helper type.
+- Document the problem or study topic, approach, time complexity, and space
   complexity in JSDoc.
 - Keep tests beside the implementation.
 - Keep custom problem statements in `src/problems/custom/<slug>/prompt.md`.
-- Keep reusable algorithm notes in `src/algorithms/<slug>/README.md`.
-- Keep reusable data-structure notes in `src/data-structures/<slug>/README.md`.
+- Keep algorithm study implementations in `src/algorithms/<slug>/` with local
+  notes and tests. They may define their own local types or examples when that
+  makes the concept clearer.
+- Keep data-structure study implementations in `src/data-structures/<slug>/`
+  with local notes and tests.
+- Keep problem solutions self-contained unless importing a shared helper clearly
+  improves clarity.
 - Keep conceptual notes in `docs/theory/` or `docs/patterns/`.
 - Use `node:test` and `node:assert/strict`.
 - Prefer focused tests covering canonical examples and meaningful edge cases.

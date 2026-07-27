@@ -77,6 +77,10 @@ describe("${functionName}", () => {
 
 TODO: Explain what this algorithm computes and when to use it.
 
+## Study Goal
+
+TODO: Explain what this implementation is intended to teach from scratch.
+
 ## Invariants
 
 TODO: Capture the key invariant or proof idea.
@@ -86,9 +90,9 @@ TODO: Capture the key invariant or proof idea.
 - Time: TODO
 - Space: TODO
 
-## Related Problems
+## Related Concepts And Problems
 
-TODO: Link practice problems that use this idea.
+TODO: Link concepts, data structures, and practice problems that use this idea.
 `;
 
   await Promise.all([

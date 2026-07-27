@@ -40,10 +40,12 @@ src/problems/custom/<problem-slug>/
 `-- prompt.md
 ```
 
-Reusable algorithms live under `src/algorithms/<slug>/`. Reusable data
-structures and helpers live under `src/data-structures/<slug>/`. The current
-tree helpers build a binary tree from a level-order array and convert a tree
-back to an array.
+From-scratch algorithm study implementations live under
+`src/algorithms/<slug>/`. From-scratch data-structure study implementations and
+shared helpers live under `src/data-structures/<slug>/`. These folders are for
+learning how the concepts work, not primarily for reuse inside problem
+solutions. The current tree helpers build a binary tree from a level-order
+array and convert a tree back to an array.
 
 ## Setup and Commands
 
@@ -119,7 +121,7 @@ The custom scaffold creates `src/problems/custom/<slug>/<slug>.ts`,
 `src/problems/custom/<slug>/<slug>.spec.ts`, `src/problems/custom/<slug>/prompt.md`,
 and updates `src/problems/custom/README.md`.
 
-Scaffold reusable DSA material:
+Scaffold DSA study material:
 
 ```bash
 npm run new-algorithm -- "Binary Search Lower Bound"
@@ -162,14 +164,17 @@ tests from it without solving the challenge.
   effects.
 - Prefer clear algorithmic names over abbreviated names, except for conventional
   terms such as `dfs`, `bfs`, `left`, and `right`.
-- Reuse helpers from `src/data-structures/` for shared structures instead of
-  duplicating them.
+- Reuse helpers from `src/data-structures/` for shared structures when that
+  improves clarity.
 - Keep custom problem statements in `src/problems/custom/<slug>/prompt.md`; do not
   put custom interview prompts under `src/problems/leetcode/`.
-- Keep reusable algorithm implementations under `src/algorithms/<slug>/` with a
-  local README and tests.
-- Keep reusable data structures under `src/data-structures/<slug>/` with a local
-  README and tests.
+- Keep algorithm study implementations under `src/algorithms/<slug>/` with a
+  local README and tests. These implementations may define local example types
+  or data representations when that makes the concept clearer.
+- Keep data-structure study implementations under `src/data-structures/<slug>/`
+  with a local README and tests.
+- Keep problem solutions self-contained unless importing a shared helper clearly
+  improves clarity.
 - Keep theory and pattern notes under `docs/theory/` or `docs/patterns/`.
 
 ## Test Conventions

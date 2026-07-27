@@ -1,7 +1,9 @@
 # Data Structures
 
-Reusable data structures and shared helpers live here. Each standalone data
-structure should keep implementation, tests, and local notes together:
+From-scratch data-structure study implementations and shared helpers live here.
+The goal is to learn how each structure stores data and supports operations, not
+to force problem solutions to reuse these files. Each standalone data structure
+should keep implementation, tests, and local notes together:
 
 ```text
 src/data-structures/<data-structure-slug>/
