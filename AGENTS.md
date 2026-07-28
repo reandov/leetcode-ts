@@ -262,6 +262,7 @@ Keep each commit focused. Do not include unrelated files or generated output.
 | Ransom Note | [source](src/problems/leetcode/ransom-note/ransom-note.ts) | [problem](https://leetcode.com/problems/ransom-note/) |
 | Rotting Oranges | [source](src/problems/leetcode/rotting-oranges/rotting-oranges.ts) | [problem](https://leetcode.com/problems/rotting-oranges/) |
 | Same Tree | [source](src/problems/leetcode/same-tree/same-tree.ts) | [problem](https://leetcode.com/problems/same-tree/) |
+| Smallest Palindromic Rearrangement I | [source](src/problems/leetcode/smallest-palindromic-rearrangement-i/smallest-palindromic-rearrangement-i.ts) | [problem](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) |
 | Subarray Sum Equals K | [source](src/problems/leetcode/subarray-sum-equals-k/subarray-sum-equals-k.ts) | [problem](https://leetcode.com/problems/subarray-sum-equals-k/) |
 | Summary Ranges | [source](src/problems/leetcode/summary-ranges/summary-ranges.ts) | [problem](https://leetcode.com/problems/summary-ranges/) |
 | Symmetric Tree | [source](src/problems/leetcode/symmetric-tree/symmetric-tree.ts) | [problem](https://leetcode.com/problems/symmetric-tree/) |
