@@ -260,6 +260,7 @@ Keep each commit focused. Do not include unrelated files or generated output.
 | Permutation in String | [source](src/problems/leetcode/permutation-in-a-string/permutation-in-a-string.ts) | [problem](https://leetcode.com/problems/permutation-in-string/) |
 | Product of Array Except Self | [source](src/problems/leetcode/product-of-array-except-self/product-of-array-except-self.ts) | [problem](https://leetcode.com/problems/product-of-array-except-self/) |
 | Ransom Note | [source](src/problems/leetcode/ransom-note/ransom-note.ts) | [problem](https://leetcode.com/problems/ransom-note/) |
+| Remove Element | [source](src/problems/leetcode/remove-element/remove-element.ts) | [problem](https://leetcode.com/problems/remove-element/) |
 | Rotting Oranges | [source](src/problems/leetcode/rotting-oranges/rotting-oranges.ts) | [problem](https://leetcode.com/problems/rotting-oranges/) |
 | Same Tree | [source](src/problems/leetcode/same-tree/same-tree.ts) | [problem](https://leetcode.com/problems/same-tree/) |
 | Smallest Palindromic Rearrangement I | [source](src/problems/leetcode/smallest-palindromic-rearrangement-i/smallest-palindromic-rearrangement-i.ts) | [problem](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) |
